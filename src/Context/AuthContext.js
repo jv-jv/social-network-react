@@ -23,7 +23,7 @@ export default function AuthContextProvider({ children }) {
       userId: user.uid,
       displayName: name,
       avatar:
-        "https://heraldjournalism.com/wp-content/uploads/2020/05/960x0.jpg",
+        "https://firebasestorage.googleapis.com/v0/b/social-react-b6485.appspot.com/o/default-avatar.jpg?alt=media&token=9abe34ae-a419-4513-88b2-2659bb8312f8",
       friends: [],
     })
   }
